@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Task Manager</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/scrolling-nav.css" rel="stylesheet">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="css/style.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+<div class="container-fluid header-container">
+ <div class='row'>
+  <div class="col-sm-12">
+  <h2>Bernallio County PC Tech task manager</h2>
+   <h4  class="heading-style">Internal tool for employees</h4>
+   <button class="btn btn-success pull-right">Logout</button>
+   <h6 class="pull-right">Hello Shawn</h6>
+  </div>
+ </div>
+</div>
+
+<div class="container-fluid">
+  <div class='row'>
+   <div class="col-sm-3" id="employee-col">
+   <h4  class="heading-style">Employees</h4>
+   <p><i class="fa fa-user"></i>Anthony Sparks </p>
+   <p><i class="fa fa-user"></i>Craig Norkus </p>
+   <p><i class="fa fa-user"></i>Kenny Vanartsdaylen </p>
+   <p><i class="fa fa-user"></i>Marie Chavez</p>
+   <p><i class="fa fa-user"></i>Gidget Mclovin</p>
+   <p><i class="fa fa-user"></i>Alvin Schmitt</p>
+   <p><i class="fa fa-user"></i>Richard Hampton </p>
+
+   </div>
+   <div class="col-sm-6"id="task-col">
+    <h4  class="heading-style">Task List</h4>
+    <div class="col-sm-12">
+      <p >
+          Type into the text box and press enter or press the button to add tasks to your list.
+          Click the task to highlight it green which shows you have done the task. 
+          Click the "X" to remove the item from your list.
+          </p>
+
+      <div class="listItems">  <ul style="list-style: none"> </ul> </div>
+            <input id="userInput" type="text" placeholder="New item..." maxlength="27">
+      <button  class="btn btn-success" id="enter" style="width:100px"><i class=""></i>Add item</button>
+    </div>
+    
+    </div>
+    <div class="col-sm-3" id="events-col">
+      <h4  class="heading-style">Events</h4>
+      <ul style="list-stylenone">
+       <li><i class="fa fa-bandcamp"></i><input type="checkbox" name="funding" value="funding" ></i>In Office</li>
+       <li><i class="fa fa-cutlery"></i><input type="checkbox" name="funding" value="funding" ></i>Lunch</li>
+       <li><i class="fa fa-users"></i><input type="checkbox" name="funding" value="funding" ></i>Meeting</li>
+       <li><i class="fa fa-building"></i><input type="checkbox" name="funding" value="funding" >Out Of Office</li>  
+       <li><i class="fa fa-trash" aria-hidden="true"></i><input type="checkbox" name="funding" value="funding"> Cleaning </li>  
+       <li><i class="fa fa-phone" aria-hidden="true"></i><input type="checkbox" name="funding" value="funding"> Service Call </li>  
+       <li><i class="fa fa-table" aria-hidden="true"></i><input type="checkbox" name="funding" value="funding"> Break </li>  
+       <li><i class="fa fa-archive" aria-hidden="true"></i><input type="checkbox" name="funding" value="funding"> Other </li>  
+      </ul>
+      <div>
+   <h5 class="heading-style"><i class="fa fa-file"></i>Daily notes</h5>
+   <p contenteditable="true" id="daily-notes" style="border:1 px solid grey; height:150px"> Hello Shawn, type in your daily notes here</p>
+      </div>
+      <div>
+        <h5>Change login credentials<form>
+            User name:<br>
+            <input type="text" name="username" style="width:55%; height:20%;"><br>
+            User password:<br>
+            <input type="password" name="psw" style="width:55%; height:20%;border:none">
+          </form>
+      </div>
+      </div>
+  </div>
+ </div>
+
+
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom JavaScript for this theme -->
+  <script src="js/scrolling-nav.js"></script>
+  <script src="task.js"></script>
+
+</body>
+
+</html>

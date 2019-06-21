@@ -1,0 +1,84 @@
+
+
+ @import url('https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap');
+ body {
+
+	text-align: center;
+    font-family: 'Raleway';
+    font-family: 'Nanum Gothic', sans-serif;
+    color:#1c1018;
+
+
+}
+
+.header-container{
+    background-color: #AECDAD;
+    color:#f4f4f4;
+    height: 120px;
+}
+
+.fa-user{
+    padding: 10px;
+}
+#employee-col{
+    background-color:#f0DDB8;
+}
+#events-col{
+    background-color:#f0DDB8;
+}
+
+#task-col{
+    background-color:#D0DEC2;
+    
+}
+.pic1{
+    margin: 0%
+}
+input[type="text"]{
+    width:70%;
+    border: none;
+    height:40px;
+    margin-bottom: 20px;
+}
+.listItems{
+
+    text-align:left;
+    height:550px;
+}
+
+.delete{
+    display:none;
+     margin:30px;
+}
+   
+ul{
+    list-style: none;
+}
+li{
+    margin-bottom: 10px;
+    
+}
+.enter{
+width: 151000px;
+}
+button{
+    background-color:red;
+    border:none;
+    margin-left: 20px;
+    border-radius:4px;
+}
+.heading-style{
+     text-transform: uppercase;
+}
+#daily-notes{
+    border:10px solid grey;
+    height:30px;
+}
+/*
+
+#F7a445
+#ef4141
+#f4f4f4
+#1E92DF
+#DODEC2
+*/
